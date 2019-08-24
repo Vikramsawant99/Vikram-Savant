@@ -110,6 +110,9 @@ Get-Help about_re
 ## \D - other than digit 
 ## \s - only Spcae
 ## \S - other than Spcae
+#  () - Group
+#  | - or
+#  + - more
 
 "A-A-A-A" -match "^(\D[-]){3}\D$"
 
@@ -153,4 +156,37 @@ For($i=0 ; $i -le 4 ;$i =$i+1)
 For($i=0 ; $i -le 4 ;$i =$i+1)
 {
     Write-Host "*"[2]
+}
+
+Get-Service | Export-Csv -Path C:\Test\Services.csv
+
+
+For($i=5 ; $i -ge 0 ;$i =$i+0)
+{
+    Write-Host "*" 
+
+}
+
+
+
+
+For($i=5 ; $i -gt 0  ;$i=$i-1)
+{
+    Write-Host "*"
+    
+  }
+  For($j=$i ; $j -gt 0 ;$j =$j-1)
+{
+    Write-Host "*" -NoNewline
+
+}
+
+
+$Mytest ="Vikram"
+
+
+For($i=$Mytest.Length ; $i -ge 1 ;$i--)
+{
+    Write-Host $i 
+
 }
