@@ -1,0 +1,88 @@
+    1  ls
+    2  Cd C:\test\My Git
+    3  C:Test
+    4  C:\Test\MyGit
+    5  ls
+    6  git status 
+    7  ls -a
+    8  git init
+    9  cd C:\
+   10  cd C:/
+   11  cd C:/Test/Mygit
+   12  git init
+   13  git status
+   14  Touch Test.txt
+   15  vi test.txt
+   16  git status
+   17  cat test.txt
+   18  vi test.txt
+   19  git status
+   20  cat test.txt
+   21  git status
+   22  git add
+   23  git add test.txt
+   24  vi test.txt
+   25  git status
+   26  git add test.txt
+   27  vi test.txt
+   28  git status
+   29  git diff
+   30  git add test.txt
+   31  git diff
+   32  git add Test.txt
+   33  git status
+   34  touch Test2.txt,Test3.txt
+   35  touch Test2.txt;Test3.txt
+   36  git add --all
+   37  git status
+   38  touch Test5.txt
+   39  git diff
+   40  git status
+   41  vi Test2.txt
+   42  git status
+   43  git diff
+   44  vi Test3.txt
+   45  git diff
+   46  vi Test2.txt
+   47  git diff
+   48  vi Test3.txt
+   49  git diff
+   50  vi Test3.txt
+   51  git status
+   52  git diff
+   53  git add --all
+   54  git diff
+   55  git status
+   56  vi Test2.txt
+   57  git add --all
+   58  git status
+   59  git commit -m "My Name is Khan"
+   60  git config --global user.email "vikramsawant99@outlook.com"
+   61  git config --global user.name "Vikram"
+   62  git config --all
+   63  git config --all --global
+   64  git config --global
+   65* 
+   66  git commit -m "My Name is Khan"
+   67  git log
+   68  vi Test2.txt
+   69  git status
+   70* git 
+   71  git add --all
+   72  git status
+   73  git diff
+   74  git diff --cached
+   75  git commit -m "2nd Commit"
+   76  git log
+   77  git diff 49389262a5c568a9c0345e5ed7d83a8712a36c1b c818cacd8bb6dade85459ffd672e158ea031ea27
+   78  vi Test5.txt
+   79* 
+   80  git reset
+   81  git log
+   82  get add --all
+   83  get add --all
+   84  git add --all
+   85  git log
+   86  history
+   87  History >>log.txt
+   88  history >>Test6.txt
